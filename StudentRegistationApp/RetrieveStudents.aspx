@@ -5,7 +5,7 @@
    <div style="margin: 40px 40px 40px 80px" > 
             <h5>Enter Student ID</h5>
             <asp:TextBox ID="StudentID" runat="server" BorderStyle="Solid"></asp:TextBox>
-            <asp:Button ID="getStudentBtn" runat="server" OnClick="RetrieveStudentDetails" Text="Show Details" OnClientClick="RetrieveStudentDetails" BackColor="#009933" Font-Bold="True" ForeColor="White" Width="100px" />
+            <asp:Button ID="getStudentBtn" runat="server" OnClick="RetrieveStudentDetails" Text="Show Details" OnClientClick="RetrieveStudentDetails" CssClass="btn btn-primary"  Font-Bold="True" ForeColor="White" Width="100px" />
         </div>
         <p style="margin-left: 80px">
             <asp:Label ID="ErrorBox" runat="server"></asp:Label></p>
